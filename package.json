@@ -8,7 +8,8 @@
     "url": "https://github.com/mleg/ru-names"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint **/*.js"
   },
   "devDependencies": {
     "eslint": "^4.0.0",

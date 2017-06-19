@@ -1,4 +1,4 @@
-/* eslint-disable no-console, no-undef */
+/* eslint-disable no-console, no-undef, global-require */
 const names = require('./ru-names')
 
 const description = [
@@ -13,4 +13,15 @@ test(description, () => {
   )
   wrong.forEach(name => console.error(`"${name}"`))
   expect(wrong.length).toBe(0)
+})
+
+test('ESlint', () => {
+  const CLIEngine = require('eslint').CLIEngine
+  const cli = new CLIEngine()
+  const report = cli.executeOnFiles(['.'])
+  if (report.errorCount) {
+    console.error(`There are ${report.errorCount} ESlint errors.
+    Please run 'npm run lint -s' (or 'yarn test') for details`)
+  }
+  expect(report.errorCount).toBe(0)
 })
