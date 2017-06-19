@@ -2,5 +2,6 @@
   "name": "ru-names",
   "version": "1.0.0",
   "main": "ru-names.js",
-  "license": "MIT"
+  "license": "MIT",
+  "url": "https://github.com/mleg/ru-names"
 }
