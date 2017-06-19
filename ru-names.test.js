@@ -32,7 +32,7 @@ test('ESlint', () => {
   const report = cli.executeOnFiles(['.'])
   if (report.errorCount) {
     console.error(`There are ${report.errorCount} ESlint errors.
-    Please run 'npm run lint -s' (or 'yarn test') for details`)
+    Please run 'npm run lint -s' (or 'yarn lint') for details`)
   }
   expect(report.errorCount).toBe(0)
 })
