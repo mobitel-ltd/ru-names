@@ -6,7 +6,7 @@ Names are in lower case; "m" stands for "male" and "f" for "female" (surprise!)
 Feel free to add more. Pull requests are welcomed. At least for now it's actively maintained.
 ## Usage
 ```javascript
-const names = require('ru-names-genders')
+const names = require('ru-names')
 console.log(names['александр']) // "m"
 console.log(names['александра']) // "f"
 ```

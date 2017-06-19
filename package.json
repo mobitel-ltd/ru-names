@@ -1,6 +1,6 @@
 {
   "name": "ru-names",
   "version": "1.0.0",
-  "main": "ru-names-genders.js",
+  "main": "ru-names.js",
   "license": "MIT"
 }
