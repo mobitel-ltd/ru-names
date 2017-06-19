@@ -15,6 +15,17 @@ test(description, () => {
   expect(wrong.length).toBe(0)
 })
 
+test('Values should be "m" and "f" only', () => {
+  const GENDERS = ['m', 'f']
+  const wrong = Object.keys(names).filter(name =>
+    !GENDERS.includes(String(names[name]))
+  )
+  wrong.forEach(name =>
+    console.error(`"${name}" - wrong value "${names[name]}"`)
+  )
+  expect(wrong.length).toBe(0)
+})
+
 test('ESlint', () => {
   const CLIEngine = require('eslint').CLIEngine
   const cli = new CLIEngine()
