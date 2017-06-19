@@ -3,5 +3,8 @@
   "version": "1.0.1",
   "main": "ru-names.js",
   "license": "MIT",
-  "url": "https://github.com/mleg/ru-names"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mleg/ru-names"
+  }
 }
