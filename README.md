@@ -23,4 +23,4 @@ or (simpler and faster)
 ```
 $ yarn test
 ```
-(make sure to first run `npm install` or `yarn install`)
+(make sure to run `npm install` or `yarn install` first)
