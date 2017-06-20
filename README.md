@@ -4,7 +4,7 @@ ___
 Names are in lower case; "m" stands for "male" and "f" for "female" (surprise!)
 ## Usage
 ```
-$ npm install ru-names
+$ npm install ru-names --save
 ```
 ```javascript
 const names = require('ru-names')
