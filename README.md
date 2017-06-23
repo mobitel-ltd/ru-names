@@ -3,9 +3,7 @@ Not necessarily a Russian name, any name which happened to be written in **Russi
 ___
 Names are in lower case; "m" stands for "male" and "f" for "female" (surprise!)
 ## Usage
-```
-$ npm install ru-names --save
-```
+`$ npm install ru-names --save`
 ```javascript
 const names = require('ru-names')
 console.log(names['александр']) // "m"
